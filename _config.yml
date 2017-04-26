@@ -6,7 +6,7 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 15
-baseurl: /
+baseurl: ''
 domain_name: 'https://itsjun.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 gems: [jekyll-paginate]
@@ -17,5 +17,5 @@ author:         'Jun'
 
 
 # Where are tags and categories displayed
-tag_page: '/tags'
-category_page: '/categories'
+tag_page: 'tags'
+category_page: 'categories'
