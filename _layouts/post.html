@@ -77,7 +77,6 @@ post_class: post-template
                 {% for post in site.posts %}
                     <li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}">{{ post.title }}</a></li>
                                {% if post.tags %} | 
-  
                 {% endfor %}
             </ul>
         </section>
