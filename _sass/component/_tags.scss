@@ -19,12 +19,12 @@
   }
 }
 
-.tags-expo {
+/*.tags-expo {
   :target:before {
     content:"";
     display:block;
-    height:72px; /* fixed header height*/
-    margin:-72px 0 0; /* negative fixed header height */
+    height:72px; 
+    margin:-72px 0 0; 
   }
   .tags-expo-list {
     @media (min-width: 38em) {
@@ -59,4 +59,4 @@
     }
     font-family: $font-sans;
   }
-}
+}*/
