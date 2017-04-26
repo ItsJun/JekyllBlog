@@ -50,7 +50,7 @@ about: 'about.html'
                 <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
                 {{ site.author }}
             {% endif %}
-            {% if post.categories %} on
+            {% if post.categories %} in
                 {% for category in post.categories %}
                       <a href="{{ site.category_page | prepend: site.baseurl }}#{{ category | slugify }}" class="post-category">{{ category }}</a>
                 {% endfor %}
